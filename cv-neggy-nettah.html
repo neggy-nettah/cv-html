@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <!-- En-tête de la page-->
+        <meta charset="utf-8" />
+        <title>Nettah neggy</title>
+    </head>
+
+    <body>
+        <!-- Corps de la page -->
+        <h1>Curriculum vitae</h1>
+        <section>
+            <h2>Mon experience:</h2>
+            <ul>
+                <li>Serveur - Brasserie des calanques - 01/06 - 01/11 </li>
+                <li>Barman - Brasserie des calanques - 01/11 - 12/18</li>
+                <li>Manager - Brasserie des calanques - 01/19 - 07/22</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Mes competences:</h2>
+            <ul>
+                <li>Capacité d'adaptation.</li>
+                <li>Travail en équipe.</li>
+                <li>Capacité de décision.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Centres d'intérêts:</h2>
+            <ul>
+                <li>Les voyages</li>
+                <li>Le sport</li>
+                <li>Les nouvelles technologies</li>
+            </ul>
+        </section>
+        <section>
+            <p><a href="mailto:neggy.nettah@laplateforme.io">Envoyez-moi un e-mail.</a></p>
+        </section>
+        <section>
+            <form method="post" action="traitement.php">
+ 
+                <fieldset>
+                    <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+             
+                    <label for="nom">Quel est votre nom ?</label>
+                    <input type="text" name="nom" id="nom" />
+             
+                    <label for="prenom">Quel est votre prénom ?</label>
+                    <input type="text" name="prenom" id="prenom" />
+              
+                    <label for="email">Quel est votre e-mail ?</label>
+                    <input type="email" name="email" id="email" />
+                    <input type="submit" value="Envoyer" />
+                </fieldset>
+             </form>
+        </section>
+    </body>
+</html>
